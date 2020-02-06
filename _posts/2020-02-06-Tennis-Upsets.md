@@ -10,9 +10,9 @@ A classic hollywood tale: a team of humble beginnings uses grit to snatch victor
 
 ### Data
 
-I looked into data from the Association of Tennis Professionals (ATP) that documented matches from 2012 to 2017. This contained information on tournament matches round by round with betting odds off several online websites including BetOnline365.
+I looked into data from the Association of Tennis Professionals (ATP) that documented matches from 2012 to 2017. This contained information on tournament matches round by round with betting odds off several websites including BetOnline365.
 
-I defined an **upset** as the player winning with a lower implied probability (the betting odds gave them a higher payout, and a lower chance of winning). An **expected** outcome is the opposite: the more likely to win succeeded. 
+I defined an **upset** as the player winning with a lower win probability (the betting odds gave a bet on them a higher payout, and a lower chance of winning). An **expected** outcome is the opposite: the more likely to win succeeded. 
 
 ### Circumstances
 
