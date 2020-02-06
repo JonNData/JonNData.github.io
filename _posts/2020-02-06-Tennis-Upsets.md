@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Tennis -  Betting on the Underdog
+title: Betting on the Underdog
 subtitle: An analysis of tennis upsets
-<!bigimg: http://www.betdistrict.com/wp-content/uploads/Gael-Monfils-dive-Australian-Open.jpg>
 tags: [tennis, data analysis, sports]
 ---
 ![Gael Monfils Tennis Dive](https://cdn.newsapi.com.au/image/v1/2d0513f542f437ec3f887744b85a4d93?width=650){: .center-block :}
@@ -44,11 +43,12 @@ Next I looked to see which players produced the most underdog victories.
 
 
 A player capable of a lot of upsets isn't necessarily the most clutch; they can't get there without being the underdog in the first place. They’re a player that is often fighting from the middle ranks, but has a lot of potential. Probably a player with lots of hot and cold streaks, Benoit Paire is exactly this player.  
+
 No sane person would have attempted the following shot with the match hanging in the balance. Any normal player being of sound mind and body would let it bounce, go for the half volley, and look to defend from there. Not this frenchman--he had an attacking gameplan from the start of that serve and was determined to pull off something spectacular. It’s this aspect of his mindset that has defined his career: percentages mean nothing to this man, and instead of playing it safe and feeling out opportunities (which by the way is exactly how his opponent this match plays), he’ll commit to shots that no one has any business making. And his career has followed suit: when he’s on, he can pull off the mesmerizing, but when he’s off, you’ll wonder what happened to him. It’s a hot-lava and cold-iceberg  situation that plants him squarely on the unpredictable side. 
 
 <iframe src="/img/Benoit_trimmed_drop.webm" width="480" height="273" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ### Fit a model 
-Based on what round it was, what level of tournament, and the differences in ranks I fit a model to predict Upsets. The model was able to explain 27% of the variation in upsets. 
-Conclusion 
-I’m not packing up an running off to Vegas with this information (in part because you can gamble online) and betting it all on a model that only explains 27%. Clearly, the people running the betting websites have access to vast data, and have accounted for much much more in their odds. But perhaps this is something 
+Based on which round it was, which level of tournament, and the differences in ranks I fit a model to predict _upsets_. The model was able to explain 27% of the variation in upsets. 
+I’m not packing up and running off to Vegas with this information (in part because you can gamble online) and betting it all on a model that only explains 27%. Clearly, the people running the betting websites have access to vast data, and have accounted for much much more in their odds. But perhaps this is something to consider and fit into a larger, more sophisticated model. Knowing which round, tournament, and the difference in rankings, could influence the optimal betting strategy. Or just knowing which Benoit Paire shows up that day.
+
