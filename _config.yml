@@ -1,9 +1,9 @@
 # --- General options --- #
 
 # Name of website
-title: Lambda Example Portfolio
+title: Jon Nguyen's Portfolio
 # Short description of your site
-description: An attempt to learn simple blog design
+description: The Data Science Projects done by Jonathan Nguyen-Dang
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -40,7 +40,7 @@ avatar: "/img/Avatar.jpg"
 navbar-col: "#858db5"
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
-page-col: "#FFFFFF"
+page-col: "#e5e5e5"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#F5F5F5"
