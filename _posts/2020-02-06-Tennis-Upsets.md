@@ -2,6 +2,7 @@
 layout: post
 title: Betting on the Underdog
 subtitle: An analysis of tennis upsets
+image: http://www.michaelkosta.com/src/img/tennis-ball.png
 tags: [tennis, data analysis, sports]
 ---
 ![Gael Monfils Tennis Dive](https://cdn.newsapi.com.au/image/v1/2d0513f542f437ec3f887744b85a4d93?width=650){: .center-block :}
