@@ -50,6 +50,6 @@ No sane person would have attempted the following shot with the match hanging in
 <iframe src="/img/Benoit_trimmed_drop.webm" width="480" height="273" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ### Fit a model 
-Based on which round it was, which level of tournament, and the differences in ranks I fit a model to predict _upsets_. The model was able to explain 27% of the variation in upsets. 
+Based on which round it was, which level of tournament, and the differences in ranks I fit a model to predict _upsets_. The model was able to explain _27%_ of the variation in upsets. 
 I’m not packing up and running off to Vegas with this information (in part because you can gamble online) and betting it all on a model that only explains 27%. Clearly, the people running the betting websites have access to vast data, and have accounted for much much more in their odds. But perhaps this is something to consider and fit into a larger, more sophisticated model. Knowing which round, tournament, and the difference in rankings, could influence the optimal betting strategy. Or just knowing which Benoit Paire shows up that day.
 
