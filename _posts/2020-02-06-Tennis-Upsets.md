@@ -7,11 +7,11 @@ tags: [tennis, data analysis, sports]
 ---
 ![Gael Monfils Tennis Dive](https://cdn.newsapi.com.au/image/v1/2d0513f542f437ec3f887744b85a4d93?width=650){: .center-block :}
 
-A classic hollywood tale: a team of humble beginnings uses grit to snatch victory from unbeatable goliaths. Why do people enjoy a good underdog story?  One USF [study](https://scholarcommons.usf.edu/cgi/viewcontent.cgi?referer=https://www.bing.com/&httpsredir=1&article=3898&context=etd) found that one reasons people cheer for the uphill battle is to prove there is justice in the world. Despite one team having more money, or happening to bogart all the talent, people want to believe that there is still a chance for others to compete and win. Another hypothesis is that people are gaming the emotional outcomes: if you root for the big dog, and its expected to win, the joy isn't very substantial. If you support a team that has all the odds stacked against them, and they pull of a victory--it's time to crack out a high-five that'll wake the dead!
+A classic Hollywood tale: a team of humble beginnings uses grit to snatch victory from unbeatable goliaths. Why do people enjoy a good underdog story?  One USF [study](https://scholarcommons.usf.edu/cgi/viewcontent.cgi?referer=https://www.bing.com/&httpsredir=1&article=3898&context=etd) found that one reason people cheer for the uphill battle is to prove that the world is just. Despite one team having more money, or happening to bogart all the talent, people want to believe that there is still a chance for others to compete and win. Another hypothesis is that people are gaming the emotional outcomes: if you root for the big dog, and its expected to win, the joy isn't very substantial. If you support a team that has all the odds stacked against them, and they pull off a victory--it's time to crack out a high-five that'll wake the dead!
 
 ### Data
 
-I looked into data from the Association of Tennis Professionals (ATP) that documented matches from 2012 to 2017. This contained information on tournament matches round by round with betting odds off several websites including BetOnline365.
+I looked into data from the Association of Tennis Professionals (ATP) that documented matches from 2012 to 2017. This contained information on tournament matches round by round with betting odds from several websites including BetOnline365.
 
 I defined an **upset** as the player winning with a lower win probability (the betting odds gave a bet on them a higher payout, and a lower chance of winning). An **expected** outcome is the opposite: the more likely to win succeeded. 
 
@@ -53,3 +53,4 @@ No sane person would have attempted the following shot with the match hanging in
 Based on which round it was, which level of tournament, and the differences in ranks I fit a model to predict _upsets_. The model was able to explain **27%** of the variation in upsets. 
 I’m not packing up and running off to Vegas with this information (in part because you can gamble online) and betting it all on a model that only explains 27%. Clearly, the people running the betting websites have access to vast data, and have accounted for much much more in their odds. But perhaps this is something to consider and fit into a larger, more sophisticated model. Knowing which round, tournament, and the difference in rankings, could influence the optimal betting strategy. Or just knowing which Benoit Paire shows up that day.
 
+[Colab Notebook](https://colab.research.google.com/drive/1lP5sAjSj0JLoFIF4CRLA9Jx-szmQlu3Z)
