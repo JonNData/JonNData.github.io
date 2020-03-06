@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Betting on the Underdog
-subtitle: An analysis of tennis upsets
+subtitle: An analysis of tennis upsets with odds from BetOnline365
 image: http://www.michaelkosta.com/src/img/tennis-ball.png
 tags: [tennis, data analysis, sports]
 ---
