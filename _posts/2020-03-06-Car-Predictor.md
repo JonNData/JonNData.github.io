@@ -14,5 +14,7 @@ Things I cover:
 *  Model selection and evaluation metrics.
 * An important lesson in practical data science
 * Insights on the dataset scraped from Craigslist
+* How to interpret a random forest Shapley Values
+* A choropleth
 
 Plus the app is fun to play with!
