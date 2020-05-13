@@ -8,5 +8,4 @@ tags: [predictive, data analysis, gas, time-series]
 
 As a small part of my labs project, I am doing some analysis on U.S. gas prices. Here is my current tableau graph!
 
-<iframe src="https://public.tableau.com/views/USGasprices/Dashboard1?:display_count=y&publish=yes&:origin=viz_share_link"
- width="645" height="955"></iframe>
+<center><iframe src="https://public.tableau.com/views/USGasprices/Dashboard1?:display_count=y&publish=yes&:origin=viz_share_link" width="1004" height="1269" frameborder="0"></iframe></center>
