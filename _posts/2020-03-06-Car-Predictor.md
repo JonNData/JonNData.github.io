@@ -10,7 +10,7 @@ I made an [app](https://used-car-predictor.herokuapp.com/) that takes data scrap
 
 I deployed an app via plotly dash onto heroku to expose the prediction model endpoint.  
 
-[https://used-car-predictor.herokuapp.com/](https://used-car-predictor.herokuapp.com/)
+[https://used-car-predictor.herokuapp.com/](https://used-car-predictor.herokuapp.com/)  
 See insights and process pages for an overview of the project.  
 Things I cover:  
 *  Model selection and evaluation metrics.
