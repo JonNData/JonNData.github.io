@@ -5,6 +5,8 @@ subtitle: Compare cars' specs, including CO2 emissions, in under a minute!
 image: https://github.com/JonNData/JonNData.github.io/blob/master/img/StreetSmarts06-18.jpg?raw=true
 tags: [AWS, Fast API, SQL, predictive, data analysis, car, craigslist]
 ---
+Visit our site at:  
+[https://www.streetsmarts.online/](https://www.streetsmarts.online/)
 
 As a data scientist and engineer on a team, I helped launch a website that allows the user to interact with car data in meaningful ways. 
 
