@@ -45,4 +45,4 @@ As a team we measure our success by the continued bewilderment of management in 
 In terms of users, we have measured the time it takes to do car comparison tasks on the major car websites  
 I have distributed the site for review and submitted responses  
   
-ORM sqlalchemy, link personal fork. GIFs 
+ORM sqlalchemy, technologies used , link personal fork. GIF
