@@ -2,7 +2,7 @@
 layout: post
 title: Calendly Scraper
 subtitle: Scraping Calendly for available dates
-image: https://github.com/JonNData/JonNData.github.io/blob/master/img/StreetSmarts06-18.jpg?raw=true
+image: https://media.glassdoor.com/sqll/1268317/calendly-squarelogo-1591106593677.png
 tags: [Web Scraping, Python, Calendly, Calendar]
 ---
 
@@ -12,14 +12,14 @@ Solution: Write a script that can be scheduled to run and check for any new avai
 This was my first foray into web scraping for a personal project instead of an assignment. The first part of web scraping is investigation: 
 what does the website of interest look like?
 
-![calendar](img/lambda_calendly.jpg)
+![calendar](/img/lambda_calendly.jpg)
 
 Next, the investigation continues by opening up the source code in your browser; I used Chrome which has developer tools. 
 Then, I clicked around on the site and watched for changes of interest to show up in the console. Inspect elements,
 perform some requests, get a vague idea how the site is setup. Eventually I found in the network section (specifically the XHR)
 the actual API calls of interest:
 
-![API Call](img/lambda_calendly_XHR.jpg)
+![API Call](/img/lambda_calendly_XHR.jpg)
 
 These were the true URLs of the API calls that would ping the servers for date availabilities. Scanning through the URL I could 
 easily setup different dates to search. After slicing appropriately through the JSON returned, I could iterate to return just available days.
