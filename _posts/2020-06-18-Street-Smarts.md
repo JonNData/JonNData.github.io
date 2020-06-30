@@ -46,3 +46,22 @@ In terms of users, we have measured the time it takes to do car comparison tasks
 I have distributed the site for review and submitted responses  
   
 ORM sqlalchemy, technologies used , link personal fork. GIF
+
+Outline:
+Gif  
+Intro  
+* pvd, greenfield, team members.  
+Data  
+* epa
+* private api, costs
+* CL, truecar, carspecs
+First iteration, RC1  
+* motivation 
+* PaaS Heroku flask insert DB
+RC2  
+* IaaS Fast RDS EB
+* modeling, costs of size, progress chart, error metric choice, R^2 adjusted
+INPUT OUTPUT Feature building for intuition  
+Communicating with web and backend  
+limitations and looking ahead  
+
