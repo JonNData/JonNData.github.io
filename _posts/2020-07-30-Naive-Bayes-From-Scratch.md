@@ -10,7 +10,8 @@ The Naive Bayes classifiers are a relatively simplistic group of statistical mod
 The predictions are based on comparing how likely the input would be observed in each class.  
   
  
-<img src="/img/naive_bayes.png" width="260" height="150" ALIGN="left" />
+<img src="/img/naive_bayes.png" width="260" height="150" align="left" />  
+
 This is Bayes Theorem and it states: the `probability of A given B` is equal to the quantity of the `probability of B given A`
 times the `probability of A` divided by the `probability of B`.
 
