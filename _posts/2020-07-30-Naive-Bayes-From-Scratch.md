@@ -5,12 +5,12 @@ subtitle: Using only NumPy to create a Multinomial Naive Bayes in Python
 image: https://github.com/JonNData/JonNData.github.io/blob/master/img/naive_title.jpg?raw=true
 tags: [naive bayes, multinomial, data analysis, python, algorithm]
 ---
-![naive_title](/img/naive_title.jpg =240x150)
+![naive_title](/img/naive_title.jpg)
 The Naive Bayes classifiers are a relatively simplistic group of statistical models for assigning class labels to a given input.
 The predictions are based on comparing how likely the input would be observed in each class.  
   
   
-![formula](/img/naive_bayes.png =240x150)
+![formula](/img/naive_bayes.png)
 This is Bayes Theorem and it states: the `probability of A given B` is equal to the quantity of the `probability of B given A`
 times the `probability of A` divided by the `probability of B`.
 
