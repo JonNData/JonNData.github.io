@@ -34,7 +34,7 @@ The naivete in this regard comes from assuming that all probabilities are indepe
 isn't affected by seeing the words "Limited Offer". This is often and easily violated, especially in the context of natural language. However, despite the relatively simplistic model,
 it produces good results.  
 
-I will be coding from scratch a multinomial Naive Bayes classifier. The main goals are to able to fit it on documents with labels, and use it to predict labels on new inputs.  
+I will be coding a multinomial Naive Bayes classifier from scratch in Python. The main goals are to be able to fit it on labeled documents, and to use it to predict labels on new inputs.  
 
 I'll need to have several data preprocessing steps to handle text input into this model.
 The first I will use to tokenize the document:
