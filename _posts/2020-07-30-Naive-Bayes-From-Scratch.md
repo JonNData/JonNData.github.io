@@ -10,7 +10,7 @@ The Naive Bayes classifiers are a relatively simplistic group of statistical mod
 The predictions are based on comparing how likely the input would be observed in each class.  
   
  
-<img src="/img/naive_bayes.png" width="260" height="150" BR CLEAR="left"  />
+<img src="/img/naive_bayes.png" width="260" height="150" ALIGN="left" />
 This is Bayes Theorem and it states: the `probability of A given B` is equal to the quantity of the `probability of B given A`
 times the `probability of A` divided by the `probability of B`.
 
@@ -29,6 +29,8 @@ There are 3 flavors of Naive Bayes classifiers: Bernoulli, Multinomial, and Gaus
 * Bernoulli distribution is binary, did X occur or not?
 * Multinomial distribution is discrete, often the frequency or count of X.
 * Gaussian distribution is also known as the normal distribution for continuous variable, could be a measurement like 88.2mL 
+
+I will use the multinomial distribution because I am interested in the number of times a word appears in a category instead of just whether it appears or not.  
 
 What's the `Naive` part of Naive Bayes?  
 The naivete in this regard comes from assuming that all probabilities are independent. In the email example this means that the probability of finding the word "Timeshare"
