@@ -6,10 +6,22 @@ image: https://github.com/JonNData/JonNData.github.io/blob/master/img/StreetSmar
 tags: [AWS, Fast API, SQL, predictive, data analysis, car, craigslist]
 ---
 Visit our site at:  
-[https://www.streetsmarts.online/](https://www.streetsmarts.online/)
+[https://www.streetsmarts.online/](https://www.streetsmarts.online/)  
+![streetsmarts_demo](https://media.giphy.com/media/fw8hWPw7M7jsvtq1QN/giphy.gif)
 
-As a data scientist and engineer on a team, I helped launch a website that allows the user to interact with car data in meaningful ways. 
+During a two month period I worked on a team as a data scientist and data engineer to produce Street Smarts. I helped launch a website that allows the user to interact with car data in meaningful ways. 
 
+In this post I will cover my endeavors regarding:
+* Understanding the product vision
+* Researching possibilities
+* Exploring data
+* Building a basic API with Flask and Heroku
+* Implementing a more sophisticated  approach with Fast API and AWS
+* Teamwork and reflection
+
+Our project was essentially greenfield, starting from scratch. The previous team that worked on code before us didn't have any deliverables to bequeath nor did they nail down 
+the objectives they set. This was a blessing, but required strong communication to hone our goals. The product vision document had some scattered amalgamation of car information 
+as a service, but no clear identity was given to the product. After meeting with the stakeholder, we were given more questions than answers, yet it was exciting to flesh out the unknown. 
 On the data science side we all wear the engineering and analyst hats, but my particular strengths have been the implementation of ideas.   
 My XGBoost predictive model had the best scores of the team  
 My function solved the complex merge between EPA and craigslist datasets  
