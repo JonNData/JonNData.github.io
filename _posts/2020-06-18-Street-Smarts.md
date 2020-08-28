@@ -23,10 +23,14 @@ Our project was essentially greenfield, starting from scratch. The previous team
 the objectives they set. This was a blessing, but required strong communication to hone our goals. The product vision document had some scattered amalgamation of car information 
 as a service, but no clear identity was given to the product. After meeting with the stakeholder, we were given more questions than answers, yet it was exciting to flesh out the unknown. 
 
-The team consisted of web, backend, and data science groups. Data science naturally drove the direction that the project could take; it was up to us to see what information was out there and what we could bring together as a service. After scouring several datasets and performing some exploratory analysis, what ended up catching our eye was a dataset from the EPA that contained car information dating back to 1984. LINK 
+The team consisted of web, backend, and data science groups. Data science naturally drove the direction that the project could take; it was up to us to see what information was out there and what we could bring together as a service. After scouring several datasets and performing some exploratory analysis, what ended up catching our eye was a dataset from the [EPA](https://www.fueleconomy.gov/feg/download.shtml) that contained car information dating back to 1984.
+
+After some 
+
+
 On the data science side we all wear the engineering and analyst hats, but my particular strengths have been the implementation of ideas.   
-My XGBoost predictive model had the best scores of the team  
-My function solved the complex merge between EPA and craigslist datasets  
+My XGBoost predictive model had the best scores of the team.
+I wrote a function to solve the complex merge between EPA and craigslist datasets.
 
 I monitor the billing charges and keep the team notified when we are projected over budget by setting up a CloudWatch alarm
  
