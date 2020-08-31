@@ -18,15 +18,22 @@ In this post I will cover my endeavors regarding:
 * Building a basic API with Flask and Heroku
 * Implementing a more sophisticated  approach with Fast API and AWS
 * Teamwork and reflection
-
+### Finding Direction
 Our project was essentially greenfield, starting from scratch. The previous team that worked on code before us didn't have any deliverables to bequeath nor did they nail down 
 the objectives they set. This was a blessing, but required strong communication to hone our goals. The product vision document had some scattered amalgamation of car information 
 as a service, but no clear identity was given to the product. After meeting with the stakeholder, we were given more questions than answers, yet it was exciting to flesh out the unknown. 
 
 The team consisted of web, backend, and data science groups. Data science naturally drove the direction that the project could take; it was up to us to see what information was out there and what we could bring together as a service. After scouring several datasets and performing some exploratory analysis, what ended up catching our eye was a dataset from the [EPA](https://www.fueleconomy.gov/feg/download.shtml) that contained car information dating back to 1984.
 
-After some 
+After some quick data [exploration](https://colab.research.google.com/drive/13O_SfTh_9WDlecc34B9u2Xmnb4URd6AK?usp=sharing) we decided this dataset was ideal for providing us car emissions in the form of CO<sub>2</sub> in grams per mile. This would give us a unique spin for our website, because all other major car listing websites neglected to inform the environmental impact directly. 
 
+### A Pricey Challenge
+However, there was a tradeoff that we reached when choosing this as our main dataset: it didn't include price information. Nowadays, retail car information isn't as freely accessible as it used to be. APIs from edmunds.com or cars.com can cost several dollars per query, and that would quickly add up on a free web app. We scoured many other datasets and experimented with scraping, and we found a comprehensive listing of car prices in a Craigslist dataset that contained 430,000+ cars. Now we had data that we could model price from, but there was a key challenge that we faced: matching the car model naming conventions. While the EPA dataset might list the model name as `Range Rover Evoque Cabriolet`, the craigslist set would just have it as `evoque`. The user would need to make just one query into our database so we had to come up with a way to either merge/join these datasets or translate between them.  
+
+We found our way to Rapid Fuzz, a python library that uses Levenshtein distance. This distance measures how many edits it takes to convert one string to the other. Using this we were able to explore and model on the Craigslist dataset normally, and translate the EPA-based query to something our predictive model would expect.
+
+### A Minimum Viable Product
+Our first objective as data scientists was to get endpoints for the rest of our team to work with. To this end, we very quickly inserted data into a SQL database and set up dummy endpoints via a Flask app. This was easy to set up
 
 On the data science side we all wear the engineering and analyst hats, but my particular strengths have been the implementation of ideas.   
 My XGBoost predictive model had the best scores of the team.
