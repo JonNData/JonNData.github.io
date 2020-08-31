@@ -5,7 +5,7 @@ title: About me
 
 Learning Python, machine learning, SQL
 
-### my history
+### History
 
-B.S. Business Admin, minor statistics
+B.S. Business Admin from California Polytechnic State University, minor statistics.
 Currently attending Lambda School Data Science program.
