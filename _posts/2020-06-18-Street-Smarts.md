@@ -33,7 +33,12 @@ However, there was a tradeoff that we reached when choosing this as our main dat
 We found our way to Rapid Fuzz, a python library that uses Levenshtein distance. This distance measures how many edits it takes to convert one string to the other. Using this we were able to explore and model on the Craigslist dataset normally, and translate the EPA-based query to something our predictive model would expect.
 
 ### A Minimum Viable Product
-Our first objective as data scientists was to get endpoints for the rest of our team to work with. To this end, we very quickly inserted data into a SQL database and set up dummy endpoints via a Flask app. This was easy to set up
+Our first objective as data scientists was to get endpoints for the rest of our team to work with. To this end, we very quickly inserted data into a SQL database and set up dummy endpoints via a Flask app. This was quick and easy to setup using the `psycopg` library using python. Specifically, our dummy endpoints only needed to take in car spec inputs such as odometer and mileage in a `POST` request, perform some arbitrary calculation, and return the 'prediction.' We pushed our backend up to Heroku using continuous deployment and linking to Github to automatically show changes made to our repository.
+
+I believe our focused efforts on pushing out something that was attainable and meets the minimum requirements ASAP was key to our team's success. Getting things done right out of the gate kept the team motivated and always looking toward solutions. This fast progress was also what drove our efficient agile development; pushing to achieve workable results ASAP gave us enough time to look forward and realize what we could achieve.
+
+### Iterating Improvements
+Once we had set up the team with the bare minimums to proceed, it was time to enhance the machine learning pipeline. We took some time to evaluate different random forest models, XGBoost, and neural networks. Mean absolute error was prioritized over R-squared because it gave a us a more direct metric over different models. See the shortcomings of R-squared for non-linear models [here](https://statisticsbyjim.com/regression/r-squared-invalid-nonlinear-regression/).
 
 On the data science side we all wear the engineering and analyst hats, but my particular strengths have been the implementation of ideas.   
 My XGBoost predictive model had the best scores of the team.
