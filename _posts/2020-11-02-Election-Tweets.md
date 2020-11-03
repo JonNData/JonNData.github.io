@@ -13,7 +13,6 @@ I took data scraped from twitter regarding the 2020 US election from August 1st 
 
 Next I ran some sentiment analysis on tweets with Trump or Biden in it as well. I plotted a scatterplot against the subjectivity of these tweets.
 <iframe src="https://public.tableau.com/views/USElection2020Aug-OctWordClouds/Dashboard2?:showVizHome=no&:embed=true" width="600" height="600" frameborder="0"></iframe>
-
 I performed Latent Dirichlet Allocation topic modelling to group together words that are commonly mentioned together.
 Some topic groupings for tweets that mentioned Trump
 
@@ -35,7 +34,7 @@ Some outputs:
 
 `"Defunding the point. Trump to Biden in US election angst of US election debate if Biden wins the US election is only two weaker will go for #BidenHarris2020Lands #Trump and Joe Biden is set to New York Post want to go for a no-deal `
 
-Of course moderately gibberish. I trained on 50 epochs, or rounds--more sophisticated models will run for much longer.
+Moderately gibberish, with some ideas sprinkled in. I trained on 50 epochs, or rounds--more sophisticated models will run for much longer.
 
 Thank you for following along as I brush up on some NLP skills!
 
