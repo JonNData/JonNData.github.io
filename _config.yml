@@ -20,10 +20,8 @@ description: The Data Science Projects done by Jonathan Nguyen-Dang
 # List of links in the navigation bar
 navbar-links:
   About: "aboutme"
-  My Links:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Github: "github.com/jonndata/jonndata.github.io"
+  LinkedIn: "https://www.linkedin.com/in/jonathan-nguyen-94344b21/"
+  Github: "https://github.com/JonNData"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
