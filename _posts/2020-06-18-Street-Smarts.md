@@ -40,11 +40,11 @@ I believe our focused efforts on pushing out something that was attainable and m
 ### Iterating Improvements
 Once we had set up the team with the bare minimums to proceed, it was time to enhance the machine learning pipeline. We took some time to evaluate different random forest models, XGBoost, and neural networks. Mean absolute error was prioritized over R-squared because it gave a us a more direct metric over different models. See the shortcomings of R-squared for non-linear models [here](https://statisticsbyjim.com/regression/r-squared-invalid-nonlinear-regression/).
 
-On the data science side we all wear the engineering and analyst hats, but my particular strengths have been the implementation of ideas.   
-My XGBoost predictive model had the best scores of the team.
-I wrote a function to solve the complex merge between EPA and craigslist datasets.
+In this time of iterating models, it was important to track our progress. Below is a graph that shows how our negative mean error increased over time, as it got closer to 0, our predictions became more accurate.
+<iframe width="800" height="700" frameborder="0" scrolling="no" src="//plotly.com/~mharman/1.embed" align="middle"></iframe>
 
-I monitor the billing charges and keep the team notified when we are projected over budget by setting up a CloudWatch alarm
+We also made architectural changes from our minimum viable product. We moved our database to Amazon RDS, switched to FastAPI to build our app, deployed on AWS Elastic Beanstalk. 
+Throughout this construction, I found it prudent to track our expenses and set up a billing monitor that emailed me whenever the costs exceeded a threshold. Frequent database access and the compute usage spinning up different instances was the bulk of our costs.
  
  
 I independently test our apps to troubleshoot any issues we couldn’t solve together and ensure I sufficiently understand what we did. Here is a repository that I made
